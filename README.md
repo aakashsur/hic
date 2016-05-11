@@ -1,3 +1,1 @@
-# mips
-# hic
 # hic
