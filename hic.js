@@ -20,7 +20,7 @@ d3.json("Chr1.json", function(error, json) {
     .call(zoom)
     .append('g');
 
-  var size = 1;
+  var size = 3;
 
   var color = d3.scale.linear()
     .domain([0,25])
