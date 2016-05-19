@@ -1,5 +1,5 @@
 function draw() {
-  $.getJSON("json/Chr01.json", function(json) {
+  $.getJSON("/json/Chr01.json", function(json) {
     var canvas = document.getElementById("canvas");
     if (canvas.getContext) {
       var ctx = canvas.getContext("2d");
